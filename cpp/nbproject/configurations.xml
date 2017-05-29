@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="c" displayName="c" projectFiles="true" root="../c">
+      <itemPath>../c/coreslam.c</itemPath>
+      <itemPath>../c/coreslam.h</itemPath>
+      <itemPath>../c/coreslam_i686.c</itemPath>
+      <itemPath>../c/coreslam_internals.h</itemPath>
+      <itemPath>../c/random.c</itemPath>
+      <itemPath>../c/random.h</itemPath>
+      <itemPath>../c/ziggurat.c</itemPath>
+      <itemPath>../c/ziggurat.h</itemPath>
+    </logicalFolder>
+    <df root="." name="0">
+      <in>Map.cpp</in>
+      <in>Scan.cpp</in>
+      <in>WheeledRobot.cpp</in>
+      <in>algorithms.cpp</in>
+    </df>
+    <logicalFolder name="examples" displayName="examples" projectFiles="true">
+      <itemPath>../examples/Log2PGM.java</itemPath>
+      <itemPath>../examples/Makefile</itemPath>
+      <itemPath>../examples/MinesRover.m</itemPath>
+      <itemPath>../examples/exp1.dat</itemPath>
+      <itemPath>../examples/exp2.dat</itemPath>
+      <itemPath>../examples/log2pgm.cpp</itemPath>
+      <itemPath>../examples/log2pgm.exe</itemPath>
+      <itemPath>../examples/log2pgm.py</itemPath>
+      <itemPath>../examples/log2png.py</itemPath>
+      <itemPath>../examples/logdemo.m</itemPath>
+      <itemPath>../examples/logmovie.py</itemPath>
+      <itemPath>../examples/mines.py</itemPath>
+      <itemPath>../examples/pgm_utils.py</itemPath>
+      <itemPath>../examples/pltslamshow.py</itemPath>
+      <itemPath>../examples/progressbar.py</itemPath>
+      <itemPath>../examples/urgslam.py</itemPath>
+      <itemPath>../examples/xvslam.py</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+    <Elem>../examples</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O3"/>
+        <element flagsID="1" commonFlags="-O3 -msse3"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>..\examples\log2pgm.exe</executablePath>
+          <cTool>
+            <incDir>
+              <pElem></pElem>
+            </incDir>
+          </cTool>
+          <ccTool>
+            <incDir>
+              <pElem>../c</pElem>
+              <pElem></pElem>
+              <pElem>libbreezyslam.dll</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="../c/coreslam.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../c/coreslam_i686.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="1">
+        </cTool>
+      </item>
+      <item path="../c/random.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../c/ziggurat.c" ex="false" tool="0" flavor2="0">
+        <cTool flags="0">
+        </cTool>
+      </item>
+      <item path="../examples/Log2PGM.java" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/Makefile" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/MinesRover.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../examples/exp1.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/exp2.dat" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/log2pgm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../examples/log2pgm.exe" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/log2pgm.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/log2png.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/logdemo.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../examples/logmovie.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/mines.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/pgm_utils.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/pltslamshow.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/progressbar.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/urgslam.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../examples/xvslam.py" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Map.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="Scan.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="WheeledRobot.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="algorithms.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

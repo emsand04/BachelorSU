@@ -1,0 +1,11 @@
+g++ -O3 -I../c -c -Wall  algorithms.cpp
+g++ -O3 -I../c -c -Wall  Scan.cpp
+g++ -O3 -I../c -c -Wall  Map.cpp
+g++ -O3 -I../c -c -Wall  WheeledRobot.cpp
+gcc -O3 -c -Wall  ../c/coreslam.c
+gcc -O3 -c -Wall  -msse3 ../c/coreslam_i686.c
+gcc -O3 -c -Wall  ../c/random.c
+gcc -O3 -c -Wall  ../c/ziggurat.c
+g++ -O3 -shared algorithms.o Scan.o Map.o WheeledRobot.o \
+                        coreslam.o coreslam_i686.o random.o ziggurat.o \
+          -o libbreezyslam.dll -lm
